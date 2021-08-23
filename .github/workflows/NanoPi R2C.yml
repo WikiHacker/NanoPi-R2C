@@ -81,7 +81,7 @@ jobs:
     - name: MOD index file
       run: |
          cd $OPENWRTROOT/package/lean/autocore/files/arm
-         sed -i '/Load Average/i\\t\t<tr><td width="33%"><%:Telegram%></td><td><a href="https://t.me/wikimao"><%:WikiHackers%></a></td></tr>' index.htm
+         sed -i '/Load Average/i\\t\t<tr><td width="33%"><%:Telegram%></td><td><a href="https://t.me/wikimao"><%:MocoWrt%></a></td></tr>' index.htm
     - name: Modify SmartDNS
       run: |
          cd $OPENWRTROOT
